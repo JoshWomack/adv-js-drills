@@ -94,14 +94,14 @@ Your code should look similar to:
     function printFruits() {
         favFruit = fruits[2];
         console.log(fruits[0]);
-}
+    }
 
-function printFavFruit() {
-    console.log(favFruit);
-}
+    function printFavFruit() {
+        console.log(favFruit);
+    }
 
-printFruits();
-printFavFruit();
+    printFruits();
+    printFavFruit();
 Save and refresh the browser.
 Why was the printFavFruit function able to log favFruit?
 
